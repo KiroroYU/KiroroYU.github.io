@@ -26,7 +26,7 @@
     
 
     
-        <link rel="icon" href="/css/images/favicon.png" />
+        <link rel="icon" href="/css/images/sun.png" />
     
 
     
@@ -89,15 +89,7 @@
                                     <a class="main-nav-list-link" href="/">主页</a>
                                 </li>
                             
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">生活</a>
-                                </li>
-                            
-                                <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">学习</a>
-                                </li>
-                            
-                                        
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></li></ul>
                                     
                                 <li class="main-nav-list-item" >
                                     <a class="main-nav-list-link" href="/about">关于</a>
@@ -182,17 +174,17 @@
         <article class="article article-summary">
     <div class="article-summary-inner">
         
-        <a href="/2020/07/04/hello-world/" class="thumbnail">
+        <a href="/2020/07/09/first/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(css/images/desert.jpg)" alt="First" class="thumbnail-image"></span>
     
     
         
 <span class="comment-counter">
     <i class="fa fa-comments-o"></i>
     
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://kiroroyu.github.io/2020/07/04/hello-world/">0</span>
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="https://kiroroyu.github.io/2020/07/09/first/">0</span>
     
 </span>
 
@@ -203,20 +195,20 @@
         
         <div class="article-meta">
             <div class="category">
-            
+            <a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a>
             </div>
-            <div class="date"><time datetime="2020-07-04T11:18:31.211Z" itemprop="datePublished">2020-07-04</time></div>
+            <div class="date"><time datetime="2020-07-09T07:05:03.197Z" itemprop="datePublished">2020-07-09</time></div>
         </div>
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2020/07/04/hello-world/">Hello World</a>
+        <a href="/2020/07/09/first/">First</a>
         </h1>
     
 
         <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
+            这是我首个博客，欢迎来到我的博客世界，博主为计算机科学与技术专业的本科在读生，天赋也许没有别人好，但是有一颗努力上进学习的心，笨鸟先飞，勤能补拙，希望能够提高自己的专业水准与技术水平。
+
         </p>
     </div>
 </article>
@@ -279,10 +271,10 @@ Quick
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2020/07/04/hello-world/" class="thumbnail">
+                            <a href="/2020/07/09/first/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(css/images/desert.jpg)" alt="First" class="thumbnail-image"></span>
     
     
 </a>
@@ -290,9 +282,9 @@ Quick
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2020/07/04/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2020-07-04T11:18:31.211Z" itemprop="datePublished">2020-07-04</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a></p>
+                            <p class="item-title"><a href="/2020/07/09/first/" class="title">First</a></p>
+                            <p class="item-date"><time datetime="2020-07-09T07:05:03.197Z" itemprop="datePublished">2020-07-09</time></p>
                         </div>
                     </li>
                 
@@ -302,6 +294,13 @@ Quick
 
             
                 
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">分类</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a><span class="category-list-count">1</span></li></ul>
+        </div>
+    </div>
+
 
             
                 
@@ -356,6 +355,21 @@ Quick
                 <p>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>. Theme by <a href="https://github.com/ppoffice" target="_blank">PPOffice</a></p>
                 
             </div>
+
+<!--这一段是不蒜子的访问量统计代码-->
+            <div class="parent">
+                <div class="child">
+                    <span id="busuanzi_container_site_pv">
+                        访问量<span id="busuanzi_value_site_pv"></span>次
+                    </span>
+                    <span class="post-meta-divider">|</span>
+                    <span id="busuanzi_container_site_uv" style='display:none'>
+                        访客数<span id="busuanzi_value_site_uv"></span>人
+                    </span>
+                    <script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+                </div>
+            </div>
+
             <div class="footer-plugins">
               
     
@@ -364,13 +378,26 @@ Quick
             </div>
         </div>
     </div>
+
+    <style>
+        .parent {
+            position: relative;
+        }
+        .child {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
 </footer>
 
     </div>
     
     
     <script>
-    var disqus_shortname = 'hexo-theme-hueman';
+    var disqus_shortname = 'kiroroyu';
     
     
     (function() {
