@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kiroroyu.github.io/"/>
-  <updated>2020-07-09T09:18:41.086Z</updated>
+  <updated>2020-11-26T15:32:53.142Z</updated>
   <id>https://kiroroyu.github.io/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="https://kiroroyu.github.io/2020/07/09/first/"/>
     <id>https://kiroroyu.github.io/2020/07/09/first/</id>
     <published>2020-07-09T07:05:03.197Z</published>
-    <updated>2020-07-09T09:18:41.086Z</updated>
+    <updated>2020-11-26T15:32:53.142Z</updated>
     
-    <content type="html"><![CDATA[<p>这是我首个博客，欢迎来到我的博客世界，博主为计算机科学与技术专业的本科在读生，天赋也许没有别人好，但是有一颗努力上进学习的心，笨鸟先飞，勤能补拙，希望能够提高自己的专业水准与技术水平。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近单曲循环的一首歌：Birds-Imagine Dragns/Elisa<br>歌词触动人心，歌者第一句就把我牢牢抓住了，很适合在低迷的时候给予自己力量，让自己落寞的心聊以慰藉。</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这是我首个博客，欢迎来到我的博客世界，博主为计算机科学与技术专业的本科在读生，天赋也许没有别人好，但是有一颗努力上进学习的心，笨鸟先飞，勤能补拙，希望能够提高自己的专业水准与技术水平。&lt;/p&gt;
+        &lt;p&gt;最近单曲循环的一首歌：Birds-Imagine Dragns/Elisa&lt;br&gt;歌词触动人心，歌者第一句就把我牢牢抓住了，很适合在低迷的时候给予自己力量，让自己落寞的心聊以慰藉。&lt;/p&gt;
 
       
     
@@ -37,6 +37,8 @@
     
     
       <category term="生活" scheme="https://kiroroyu.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="音乐" scheme="https://kiroroyu.github.io/categories/%E7%94%9F%E6%B4%BB/%E9%9F%B3%E4%B9%90/"/>
     
     
   </entry>
